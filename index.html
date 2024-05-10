@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav1">
+            <p>New to Usability Hub : Open and Close Card Sorting</p>
+        </div>
+        <div class="nav2">
+            <div class="nav2-img">
+              <a href="">  <img src="https://landing-page-debu.netlify.app/assets/asset%201.png" alt=""></a>
+            </div>
+            <div class="sidebar">
+                <a href=""><i class="fa-solid fa-xmark" onclick=crossbar()></i></a>
+                <p>Products</p>
+                <p>Customers</p>
+                <p>Pricing</p>
+                <p>Resource</p>
+                <button class="bt-1"><span>Sign in</span></button>
+                <button class="bt-2"><span>Sign up</span></button>
+            </div>
+            <div class="nav2-categories">
+                <p>Products</p>
+                <p>Customers</p>
+                <p>Pricing</p>
+                <p>Resource</p>
+                <button class="bt-1"><span>Sign in</span></button>
+                <button class="bt-2"><span>Sign up</span></button>
+            </div>
+            <div class="nav2-icon">
+                <i class="fa-solid fa-bars" onclick=showSidebar()></i>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="hero">
+            <div class="hero-left">
+                <p class="hero-left-p">Design Confidently.</p>
+                <p class="hero-left-p2">UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.</p>
+                <button class="hero-btn"><a href="https://www.lyssna.com/">Get Started</a></button>
+            </div>
+            <div class="hero-right">
+                <img src="https://usability-hub-design.netlify.app/assets/group-img.jpeg" alt="">
+            </div>
+        </div>
+        <div class="hero-info">
+            <p>The world’s best companies rely on UsabilityHub to make better design decisions.</p>
+        </div>
+        <div class="hero-img">
+            <img src="https://usability-hub-design.netlify.app/assets/google.png" alt="">
+            <img src="https://usability-hub-design.netlify.app/assets/amazon.png" alt="">
+            <img src="https://usability-hub-design.netlify.app/assets/airtable.png" alt="">
+            <img src="https://usability-hub-design.netlify.app/assets/godaddy.svg" alt="">
+            <img src="https://usability-hub-design.netlify.app/assets/asana.png" alt="">
+            <img src="https://usability-hub-design.netlify.app/assets/taskrabbit.png" alt="">
+            <img src="https://ww1.freelogovectors.net/wp-content/uploads/2022/10/urban-company-logo-freelogovectors.net_.png?lossy=1&ssl=1" alt="" height="50px" width="150px">
+            
+            <img src="https://orissadiary.com/wp-content/uploads/2018/01/RuPay-Logo_High-Res.png" alt="" height="50px" width="150px">
+        </div>
+    </section>
+    <section>
+        <div class="hero2">
+            <div class="hero2-info">
+            <h2>Your user research Swiss Army knife</h2>
+            <button> <span>See all features <i class="fa-solid fa-arrow-right"></i></span></button>
+            </div>
+            <div class="hero2-discription">
+               <div class="box">
+                <img src="https://usability-hub-design.netlify.app/assets/cardsorting.svg" alt="">
+                <h2>Card Sorting</h2>
+                <p>Discover how people group and label information.</p>
+                <button><span><a href="https://uxdesign.cc/card-sorting-what-how-the-perks-29f6cb020270">Learn more <i class="fa-solid fa-arrow-right"></i></a></span></button>
+               </div>
+               <div class="box">
+                <img src="https://usability-hub-design.netlify.app/assets/prototype.svg" alt="">
+                <h2>Prototype tests</h2>
+                <p>Discover how people navigate your Figma prototypes.</p>
+                <button><span><a href="https://www.lyssna.com/guides/prototype-testing/">Learn more <i class="fa-solid fa-arrow-right"></i></a></span></button>
+               </div>
+               <div class="box">
+                <img src="https://usability-hub-design.netlify.app/assets/firstclick.svg" alt="">
+                <h2>First Click Tests</h2>
+                <p>Test interaction with first click and navigation tests.</p>
+                <button><span><a href="https://www.lyssna.com/guides/first-click-testing/">Learn more <i class="fa-solid fa-arrow-right"></i></a></span></button>
+               </div>
+               <div class="box">
+                <img src="https://usability-hub-design.netlify.app/assets/designsurvey.svg" alt="">
+                <h2>Design surveys</h2>
+                <p>Get feedback on images, videos or audio files</p>
+                <button><span><a href="https://www.lyssna.com/guides/design-surveys/">Learn more <i class="fa-solid fa-arrow-right"></i></a></span></button>
+               </div>
+               <div class="box">
+                <img src="https://usability-hub-design.netlify.app/assets/preference.svg" alt="">
+                <h2>Preference tests</h2>
+                <p>Find out which designs users prefer and why.</p>
+                <button><span><a href="https://www.lyssna.com/guides/preference-testing/">Learn more <i class="fa-solid fa-arrow-right"></i></a></span></button>
+               </div>
+               <div class="box">
+                <img src="https://usability-hub-design.netlify.app/assets/five.svg" alt="">
+                <h2>Five second tests</h2>
+                <p>Test comprehensibility by measuring first impressions.</p>
+                <button><span><a href="https://www.lyssna.com/guides/five-second-testing/">Learn more <i class="fa-solid fa-arrow-right"></i></a></span></button>
+               </div>
+              
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="information1">
+            <div class="information1-left">
+                <h2>Effortless validation for</h2>
+                <h1>Design professionals</h1>
+                <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful experiences for your users.</p>
+            </div>
+            <div class="information1-right">
+                <img src="https://usability-hub-design.netlify.app/assets/feature%20img1.png" alt="">
+            </div>
+        </div>
+        <div class="information2">
+           
+            <div class="information2-right">
+                <h2>Optimisation for</h2>
+                <h1>Marketers</h1>
+                <p>Fine-tune landing pages, messaging, and creat
+                    ive, helping you optimise conversion rates on marketing campaigns and product launches.</p>
+            </div>
+            <div class="information2-left">
+                <img src="https://usability-hub-design.netlify.app/assets/feature%20img2.png" alt="">
+            </div>
+        </div>
+        <div class="information3">
+          
+           
+            <div class="information3-right">
+                <h2>Easier decision making for</h2>
+                <h1>Product managers</h1>
+                <p>Ensure you’re delivering the right features to the right cus
+                    tomers by validating product concepts with your target audience.</p>
+            </div>
+            <div class="information3-left">
+                <img src="https://usability-hub-design.netlify.app/assets/feature%20img3.png" alt="">
+            </div>
+           
+        </div>
+    </section>
+    <section>
+        <div class="hero-last">
+            <div class="hero-last-info">
+                <h2>One platform, endless possibilities</h2>
+                <button><span><a href="https://www.lyssna.com/">See more examples <i class="fa-solid fa-arrow-right"></i></a></span></button>
+            </div>
+            <div class="hero-last-discription">
+                <div class="container">
+                   <p>can users complete a task in my softeare interface ?</p> 
+                </div>
+                <div class="container2">
+
+                    <p>can users find important pages on my website ?</p> 
+                 </div>
+                 <div class="container3">
+                    <p>Is my website's intended audience clear?</p> 
+                 </div>
+                 <div class="container4">
+                    <p>Do visitors understand what a page is about</p> 
+                 </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <div class="foot-info">
+                <h1>Start testing Today</h1>
+                <h2>Take the guess work out of the design decisions</h2>
+                <button><a href="https://www.lyssna.com/">Get Started</a></button>
+            </div>
+            <div class="foot-discription">
+                <div class="foot-discription1">
+                    <img src="https://usability-hub-design.netlify.app/assets/logo.png" alt="" height="90px" width="250px">
+                </div>
+                <div class="foot-discription2">
+                    <ul>
+                        <a href="">Product</a>
+                        <a href="">Overview</a>
+                        <a href="">Pricing</a>
+                        <a href="">Usability Hub</a>
+                        <a href="">Customers Page</a>
+                        <a href="">Status Page</a>
+                    </ul>
+                    <ul>
+                        <a href=""> Methodologies</a>
+                        <a href="">Overview</a>
+                        <a href="">Pricing</a>
+                        <a href="">Usability Hub</a>  
+                        <a href="">Customers Page</a> 
+                        <a href="">Status Page</a>                    
+                    </ul>
+                    <ul>
+                        <a href=""> Resources</a>
+                       <a href="">Overview</a>
+                       <a href="">Pricing</a>
+                        <a href="">Usability Hub</a>  
+                        <a href="">Customers Page</a> 
+                        <a href="">Status Page</a> 
+
+                     
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="foot-foot">
+                <a href="">Privacy Policy</a>
+                <a href="">Terms and conditions</a>
+                <a href="">Security Informations</a>
+                <a href="https://www.instagram.com/abhishek_kr414?igsh=cXR2aHZlazJyaG14"><i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Abhi30072004"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = 'flex' ;
+        }
+        function crossbar(){
+            const cross = document.querySelector(".sidebar")
+            cross.style.display='none';
+
+        }
+    </script>
+</body>
+</html>
